@@ -1,0 +1,86 @@
+html{
+	background: #D6E1FF;
+	font-family: sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+@media (min-width: 375px){
+	#app{
+		display: flex;
+		justify-content: center;
+		padding-top: 2%;
+		padding-bottom: 2%;
+	}
+	.illusHero{
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+	.bottomCardContainer{
+		background: #fff;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+	.cardContainer{
+		background: #fff;
+		border-radius: 10px;
+		box-shadow: 6px 8px #d9d7d7;
+	}
+	.title{
+		color: #172443;
+		text-align: center;
+	}
+	.info{
+		color: #858794;
+		font-size: 20px;
+		text-align: center;
+	}
+	.musicIcon{
+		display: inline;
+		width: 20%;
+	}
+	.priceContainer{
+		display: flex;
+		justify-content: center;
+	}
+	.changePlan{
+		display: inline;
+	}
+	h2{
+		cursor: pointer;
+		text-decoration: underline;
+	}
+	.payButtonContainer{
+		display: flex;
+		justify-content: center;
+	}
+	.payButton{
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		font-size: 1.5em;
+		width: 300px;
+		background: #382AE1;
+		height: 50px;
+	}
+	.cancelButtonContainer{
+		display: flex;
+		justify-content: center;
+	}
+	.cancelButton{
+		color: #858794;
+		transition-duration: 1s;
+		border: 1px solid transparent;
+		border-radius: 5px;
+		cursor: pointer;
+		font-size: 1.5em;
+		height: 50px;
+		width: 300px;
+	}
+	.cancelButton:hover{
+		transition-duration: 1s;
+		border: 1px solid #333;
+	}
+}
